@@ -3,7 +3,7 @@ help:
 
 build:
 	mkdir build
-	gcc ./src/main.c -o ./build/main
+	g++ -std=c++11 ./src/main.cpp -o ./build/main
 
 run:
 	./build/main
