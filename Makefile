@@ -5,7 +5,7 @@ build:
 	mkdir build
 	g++ -std=c++11 ./src/main.cpp -o ./build/main
 
-run:
+run: build
 	./build/main
 
 clean:
