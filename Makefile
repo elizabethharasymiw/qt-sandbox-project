@@ -3,10 +3,10 @@ help:
 
 build:
 	mkdir build
-	g++ -std=c++11 ./src/main.cpp -o ./build/main
+	./cmake.sh
 
 run: build
-	./build/main
+	./build/git-code-heatmap
 
 clean:
 	 rm -r ./build

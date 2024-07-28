@@ -3,6 +3,7 @@ c++11
 catch2 v2
 gcc >= 4.8.3
 make
+cmake >= 3.29.3
 Qt
 
 ## Catch2 C++ test framework
