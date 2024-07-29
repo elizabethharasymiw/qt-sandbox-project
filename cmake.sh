@@ -1,4 +1,7 @@
-#!/bin/zsh
-cmake -S ./src -B ./build
+#!/bin/bash
+mkdir build
 cd build
+cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .
 make
