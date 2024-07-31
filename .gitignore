@@ -1,0 +1,5 @@
+# Ignore the projects python virtual environment
+heatmap-python-env/
+
+# Ignore generated build folder
+build/
