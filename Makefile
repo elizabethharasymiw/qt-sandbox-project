@@ -3,10 +3,12 @@ help:
 
 build:
 	mkdir build
+	./python-venv.sh
 	./cmake.sh
 
 run: build
-	./build/git-code-heatmap
+	./build/bin/git-code-heatmap
 
 clean:
-	 rm -r ./build
+	 rm -r build
+	 rm -r heatmap-python-env
