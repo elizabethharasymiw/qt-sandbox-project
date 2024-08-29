@@ -1,4 +1,4 @@
-# C++ game made to test out Qt framework
+# Sandbox to play with the Qt framework
 
 ## Build Requirements
 - gcc
