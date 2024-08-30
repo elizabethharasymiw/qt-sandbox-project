@@ -5,3 +5,9 @@
 - make
 - python 3.7 or newer
 - For more details on version requirements see: ./docs/REQUIREMENTS.md
+
+## Developer Build Instructions
+```
+# Build the project using CMake
+./cmake.sh
+```
